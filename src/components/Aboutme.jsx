@@ -1,5 +1,6 @@
 import meImg from '../images/myimg_2.jpg'
 import Slide from 'react-reveal/Slide'
+import '../App.css'
 
 function Aboutme() {
   return (

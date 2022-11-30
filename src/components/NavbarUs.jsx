@@ -1,10 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import '../App.css'
+
 function NavbarUs() {
   return (
     <div className="container-fluid p-0">
       <nav className="navbar navbar-expand-sm navbar-dark w-100">
         <div className="container-fluid">
-          <a className="navbar-brand nav-text" href="#">
+          <a className="navbar-brand nav-text">
             Portfo<span className="color-head">lio</span>
           </a>
           <button

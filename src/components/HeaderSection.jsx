@@ -1,4 +1,5 @@
 import Slide from "react-reveal/Slide"
+import '../App.css'
 
 function HeaderSection() {
   const handleForm = (e) => {

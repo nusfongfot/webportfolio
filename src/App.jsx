@@ -6,7 +6,6 @@ import HeaderSection from "./components/HeaderSection"
 import NavbarUs from "./components/NavbarUs"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
-import Slide from "react-reveal/Slide"
 
 function App() {
   return (
@@ -14,9 +13,7 @@ function App() {
       <NavbarUs />
       <HeaderSection />
       <Aboutme />
-
       <Projects />
-
       <Skills />
       <Footer />
     </div>

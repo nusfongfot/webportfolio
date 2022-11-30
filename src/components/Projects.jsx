@@ -1,14 +1,15 @@
 import CardUs from "../components/CardUs"
 import Slide from "react-reveal/Slide"
+import '../App.css'
 
 function Projects() {
   return (
-    <div class="container-fluid" id="projects">
-      <div class="title-service d-flex align-items-center justify-content-center overflow-hidden">
+    <div className="container-fluid" id="projects">
+      <div className="title-service d-flex align-items-center justify-content-center overflow-hidden">
         <Slide bottom>Projects</Slide>
       </div>
 
-      <div class="row overflow-hidden d-flex m-0 flex-column d-sm-flex flex-sm-column align-items-sm-center justify-content-sm-center gap-4 mb-5 d-xxl-flex flex-xxl-row d-xl-flex flex-xl-row d-lg-flex flex-lg-row">
+      <div className="row overflow-hidden d-flex m-0 flex-column d-sm-flex flex-sm-column align-items-sm-center justify-content-sm-center gap-4 mb-5 d-xxl-flex flex-xxl-row d-xl-flex flex-xl-row d-lg-flex flex-lg-row">
         <Slide bottom>
           <div className="overflow-hidden d-flex justify-content-center flex-column gap-4 d-sm-flex flex-sm-column d-md-flex flex-md-column align-items-md-center d-d-lg-flex flex-lg-wrap flex-lg-row d-xl-flex flex-xl-row">
             <CardUs

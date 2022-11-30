@@ -8,6 +8,7 @@
   margin: 0;
 }
 
+
 body {
   display: flex;
   align-items: center;
@@ -273,6 +274,9 @@ h3 {
   .about-align div:nth-child(1) {
     font-size: 40px;
   }
+  .about-align div:nth-child(3) { 
+    font-size: 14px;
+  }
 }
 
 /* end about */
@@ -326,8 +330,8 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 45px;
-  font-size: 100px; 
+  gap: 15px;
+  font-size: 90px; 
   color: #f9004d;
 }
 
@@ -353,7 +357,6 @@ h3 {
   .title-service {
     font-size: 40px;
   }
-
 }
 
 /* end service */
