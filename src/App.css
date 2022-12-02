@@ -20,6 +20,15 @@ body {
   font-weight: bold;
 }
 
+.navbar-toggler {
+  color:transparent;
+}
+.navbar-collapse { 
+  flex-grow: 0;
+ }
+
+
+
 a {
   text-decoration: none;
   color: #fff;
@@ -275,7 +284,7 @@ h3 {
     font-size: 40px;
   }
   .about-align div:nth-child(3) { 
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 

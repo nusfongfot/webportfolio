@@ -7,7 +7,7 @@ function Footer() {
       <Slide bottom>
         <div className="footer-content">
           <div className="footer-detail">
-            <b className="d-flex align-items-center gap-2"><i class="fa-solid fa-envelope"></i> sorawit819@gmail.com</b>
+            <b className="d-flex align-items-center gap-2"><i className="fa-solid fa-envelope"></i> sorawit819@gmail.com</b>
             <b >
               <i className="fa-solid fa-phone"></i> 099-472-4464
             </b>

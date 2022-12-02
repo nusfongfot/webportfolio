@@ -4,13 +4,14 @@ import Aboutme from "./components/Aboutme"
 import Footer from "./components/Footer"
 import HeaderSection from "./components/HeaderSection"
 import NavbarUs from "./components/NavbarUs"
+import NavTest from "./components/NavTest"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 
 function App() {
   return (
     <div>
-      <NavbarUs />
+      <NavTest />
       <HeaderSection />
       <Aboutme />
       <Projects />
