@@ -275,7 +275,7 @@ h3 {
     font-size: 40px;
   }
   .about-align div:nth-child(3) { 
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
@@ -398,7 +398,7 @@ h3 {
 }
 
 .footer-detail {
-  display: flex;
+  display: flex;  
   flex-direction: column;
 }
 

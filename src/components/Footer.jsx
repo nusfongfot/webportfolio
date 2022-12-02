@@ -7,8 +7,8 @@ function Footer() {
       <Slide bottom>
         <div className="footer-content">
           <div className="footer-detail">
-            <b>Sorawit Khongsrima(Nus)</b>
-            <b>
+            <b className="d-flex align-items-center gap-2"><i class="fa-solid fa-envelope"></i> sorawit819@gmail.com</b>
+            <b >
               <i className="fa-solid fa-phone"></i> 099-472-4464
             </b>
             <b>link below to contact me: </b>
