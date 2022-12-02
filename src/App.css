@@ -27,6 +27,9 @@ body {
   flex-grow: 0;
  }
 
+.nav-link-text {
+  font-size: 22px;
+}
 
 
 a {

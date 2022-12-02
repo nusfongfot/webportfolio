@@ -8,23 +8,22 @@ function NavTest() {
     <div className="contaicontainer-fluid p-0">
       <Navbar className="navbar navbar-expand-sm navbar-dark " expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
-            {" "}
-            Portfo<span className="color-head">lio</span>
+          <Navbar.Brand>            
+           <span className="nav-text">Portfo<span className="color-head">lio</span></span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-          <Navbar.Collapse id="basic-navbar-nav" className="">
+          <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home" className="text-white">
+              <Nav.Link href="#home" className="text-white nav-link-text">
                 Home
               </Nav.Link>
-              <Nav.Link href="#about" className="text-white">
+              <Nav.Link href="#about" className="text-white nav-link-text">
                 AboutMe
               </Nav.Link>
-              <Nav.Link href="#projects" className="text-white">
+              <Nav.Link href="#projects" className="text-white nav-link-text">
                 Projects
               </Nav.Link>
-              <Nav.Link href="#contact" className="text-white">
+              <Nav.Link href="#contact" className="text-white nav-link-text">
                 Contact
               </Nav.Link>
             </Nav>
