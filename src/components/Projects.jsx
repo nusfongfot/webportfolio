@@ -1,5 +1,7 @@
 import CardUs from "../components/CardUs"
 import Slide from "react-reveal/Slide"
+import { DiMongodb } from "react-icons/di"
+import { SiExpress } from 'react-icons/si';
 import '../App.css'
 
 function Projects() {
@@ -13,11 +15,13 @@ function Projects() {
         <Slide bottom>
           <div className="overflow-hidden d-flex justify-content-center flex-column gap-4 d-sm-flex flex-sm-column d-md-flex flex-md-column align-items-md-center d-d-lg-flex flex-lg-wrap flex-lg-row d-xl-flex flex-xl-row">
             <CardUs
-              title="Twitter Clone"
-              iconHtml="fa-brands fa-html5"
-              iconCss="fa-brands fa-css3-alt"
-              link="https://nusfongfot.github.io/basic-cloneTwitter-/"
-              code="https://github.com/nusfongfot/basic-cloneTwitter-"
+              title="Final Project(MERN Stack)"              
+              iconReact="fa-brands fa-react"
+              iconNode="fa-brands fa-node"
+              iconExpress={<SiExpress />}
+              iconMogo={<DiMongodb />}
+              link="https://elitemove-nus-weld.vercel.app"
+              code="https://github.com/JSD3G6/frontend_subgroupB"
             />
             <CardUs
               title="Airbnb Clone"

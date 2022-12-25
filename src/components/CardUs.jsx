@@ -1,6 +1,17 @@
-import '../App.css'
+import "../App.css"
 
-function Card({ title, iconHtml, iconCss, iconJs, iconReact, link, code }) {
+function Card({
+  title,
+  iconHtml,
+  iconCss,
+  iconJs,
+  iconReact,
+  iconNode,
+  iconMogo,
+  iconExpress,
+  link,
+  code,
+}) {
   return (
     <div className="col col-sm-12 col-md-6 col-lg-5 col-xl-4 col-xxl-3 d-flex justify-content-center">
       <div className="card-content">
@@ -9,6 +20,9 @@ function Card({ title, iconHtml, iconCss, iconJs, iconReact, link, code }) {
           <i className={iconCss}></i>
           <i className={iconJs}></i>
           <i className={iconReact}></i>
+          <i className={iconNode}></i>
+          <i style={{ display: "flex" }}>{iconExpress}</i>
+          <i style={{ display: "flex" }}>{iconMogo}</i>
         </div>
 
         <div className="detail-service">
@@ -21,16 +35,12 @@ function Card({ title, iconHtml, iconCss, iconJs, iconReact, link, code }) {
         </div>
 
         <div>
-          <button className="about-btn">
-            <a href={code} target="_blank" rel="noreferrer">
-              Source Code
-            </a>
-          </button>
-          <button className="about-btn">
-            <a href={link} target="_blank" rel="noreferrer">
-              Watch Now
-            </a>
-          </button>
+          <a href={code} target="_blank" rel="noreferrer">
+            <button className="about-btn">Source Code</button>
+          </a>
+          <a href={link} target="_blank" rel="noreferrer">
+            <button className="about-btn">Watch Now</button>
+          </a>
         </div>
       </div>
     </div>
